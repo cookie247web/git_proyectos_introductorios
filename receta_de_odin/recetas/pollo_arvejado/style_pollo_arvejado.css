@@ -1,0 +1,44 @@
+body{
+    background-color: #D8C8B8;
+    font-family: inter, sans-serif;
+    
+}
+
+h1{
+    color: #2A221B;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 70px;
+    
+}
+
+.descripcion{
+    display:block;
+    background-color: #F5E9D4;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+}
+
+.ingredientes{
+    display:inline-block;
+    background-color: #F5E9D4;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+      margin-left: 300px;
+    margin-right: 100px;
+}
+.pasos{
+    display:inline-block;
+    background-color: #F5E9D4;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+      margin-left: px;
+    margin-right: px;
+}

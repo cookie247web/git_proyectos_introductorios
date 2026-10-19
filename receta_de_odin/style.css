@@ -1,0 +1,23 @@
+body{
+    background-color: #D8C8B8;
+    font-family: inter, sans-serif;
+}
+
+h1{
+    text-align: left;
+    color: #2A221B;
+}
+
+
+ul{
+    margin-top: 10px;
+    text-align: left;
+    list-style-type: none;
+    
+
+}
+
+a{
+    display: block;
+    text-decoration: none;  
+}

@@ -1,0 +1,46 @@
+body{
+    background-color: #D8C8B8;
+    font-family: inter, sans-serif;
+}
+
+img{
+
+    margin-right: 100px;
+    margin-left: 150px;
+
+}
+
+h1{
+    color: #2A221B;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 70px;
+
+}
+
+.parrafos{
+    display:inline-block;
+    color: #2A221B;
+   padding: 20px;
+   background-color: #f0eeec;
+    
+}
+
+h2{
+    color: #2A221B;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.oracion{
+    font-weight: 700;
+
+}
+a{
+    text-decoration: none; 
+    list-style-type: none;
+
+
+}
+
