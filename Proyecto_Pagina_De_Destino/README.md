@@ -1,0 +1,1 @@
+en este proyecto espero demostrar lo aprendido en css, usando flexbox para ordenar una pagina creada desde 0 por mi.
