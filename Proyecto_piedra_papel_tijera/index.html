@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="data:,">
+
+   
+</head>
+<body>
+<div class="head">
+    <p>header</p>
+</div>
+<div>
+    <h2 >Piedra Papel Tijera</h2>
+
+    <div>Reglas del juego,existen 3 opciones piedra papel y tijera cada una de estas gana contra otra,jugaras contra la maquina <br>
+    el juego concluira despues de 5 rondas
+    </div>
+</div>
+<div class="body_1">
+  
+    <div class="contenedor">
+
+        <h3>selecciona una opcion</h3>
+
+        <label class="opción">
+            <input type="radio" name="opción" value="1">
+            Piedra
+        </label>
+        <label class="opción">
+            <input type="radio" name="opción" value="2">
+            Papel
+        </label>
+        <label class="opción">
+            <input type="radio" name="opción" value="3">
+            Tijera
+        </label>
+
+        <button id="btn-registro" onclick="RondaJugada()">Confirmar</button>
+
+        <div id="resultado"></div>
+        <div>Partidas <span id="idPartidas">0</span></div>
+
+    </div>
+</div> 
+<div class="body_2">
+    <div>
+        <h3></h3>
+       
+        <div>Usuario <span id="id-usuario">0</span></div>
+        <div>Maquina <span id="id-maquina">0</span></div>
+    </div>
+    <div class="panel-registro">
+        <h3>Registro De Rondas</h3>
+        <ul id="lista-registro">
+
+        </ul>
+
+    </div>
+
+
+
+</div>
+<!DOCTYPE html>
+<html lang="es">
+
+    <!-- Tu HTML -->
+    <div>Usuario <span id="id-usuario">0</span></div>
+
+    <!-- Tu JavaScript al final del body -->
+    <script>
+        // 1. Capturamos el elemento
+        let idUsuario = document.getElementById("id-usuario");
+
+        // 2. Definimos el valor que queremos mostrar
+        let usuario = "JuanPro123";
+
+        // 3. Lo inyectamos en la pantalla
+        idUsuario.textContent = usuario;
+    </script>
+
+
+
+ <script type="module" src="script.js"></script>
+</body>
+</html>
